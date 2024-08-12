@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/User/qanew/Batch25WebAutomationPOM-main/Project_04_islamicshopdk.com">
+        <classes>
+            <class name="Testcases.TestClickChechout">
+                <methods>
+                    <include name="TestClickCheckout"/>
+                </methods>
+            </class>
+            <class name="Testcases.TestClickOrder">
+                <methods>
+                    <include name="TestViewBook"/>
+                </methods>
+            </class>
+            <class name="Testcases.TestGoToCart">
+                <methods>
+                    <include name="GoToCart"/>
+                    <include name="SameProductsMultipleTime"/>
+                </methods>
+            </class>
+            <class name="Testcases.TestProvideAllInformation">
+                <methods>
+                    <include name="TestGiveAllInformationWithInsideDhaka"/>
+                    <include name="TestGiveAllInformationWithBkash"/>
+                    <include name="TestGiveAllInformationWithnagad"/>
+                    <include name="TestPreviousButton"/>
+                </methods>
+            </class>
+            <class name="Testcases.TestScrollDownNextPage">
+                <methods>
+                    <include name="TestScrollDownAndNextPage"/>
+                </methods>
+            </class>
+            <class name="Testcases.TestSelectCatagory">
+                <methods>
+                    <include name="TestselectGeneralBookButton"/>
+                    <include name="TestselectFreeBooks"/>
+                    <include name="TestselectSelectprophetsahaba"/>
+                    <include name="TestselectSelectIslamiWoman"/>
+                    <include name="TestselectSelectibadat"/>
+                </methods>
+            </class>
+            <class name="Testcases.ViewAnyBook">
+                <methods>
+                    <include name="TestViewBook"/>
+                </methods>
+            </class>
+            <class name="Testcases.VisitSite">
+                <methods>
+                    <include name="VisitPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
