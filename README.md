@@ -1,7 +1,8 @@
 # islamicshopdk.com_Automation_Testing_Using_Selenium
-###Technology Used###
+
+### **Technology used:**
 -Intellij IDEA Community Edition
 -Selenium
 
-###Programming Language###
+### **Programming Language used:**
 -Java
