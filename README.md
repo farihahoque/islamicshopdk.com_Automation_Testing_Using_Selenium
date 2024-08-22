@@ -5,14 +5,8 @@ This project showcases a comprehensive approach to software testing by the autom
 - IntelliJ IDE
 - Selenium
   
-### **Programming Language used:**
+### Programming Language used
 - Java
-  
-## Project Structure
-- Automation Testings: Contains the Selenium WebDriver test scripts.
-- Manual Testing: Directory for manual test case documentation.
-- Allure-results: Directory where Allure results are stored.
-- Allure-report: Directory where the Allure report is stored.
 
 ## Running Automated Tests in CLI mode
 ```console
